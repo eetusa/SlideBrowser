@@ -1,0 +1,189 @@
+.container {
+
+  width:100hh;
+  height:98vh;
+  margin:0;
+  padding:0;
+  overflow: scroll;
+  overflow-x: hidden;
+  outline: none !important;
+  position: relative;
+
+}
+
+.container h2 {
+  font-size: 3rem;
+  margin: 5px;
+}
+
+.container a {
+  font-size: 1.4rem;
+}
+
+.head {
+  margin: 30px;
+  padding:0;
+}
+
+.content {
+  padding: 10px;
+}
+
+.top{
+  margin:0;
+  padding:0;
+  background-color: rgba(0, 1, 127, 0.3);
+
+}
+
+.bottom {
+  display:flex;
+  align-items: center;
+  background-color: azure;
+  margin: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.2)
+
+}
+
+.bottom button{
+  height:30px;
+  margin:5px 5px 5px 5px;
+
+
+}
+
+.folders {
+  display: flex;
+  color: black;
+  align-items: center;
+
+
+}
+
+.foldersFolder {
+  display:flex;
+  margin:5px;
+  padding:2px 5px 2px 5px;
+  background-color: rgb(230,230,230);
+  color: black;
+  border-radius: 3px;
+  font-size: 13px;
+  cursor: default;
+  border: 1px solid rgba(0,0,0,0.5);
+}
+
+
+
+.foldersFolderButton{
+  margin: 0px 5px 0px 5px;
+  padding: 1xp;
+  background: rgb(200,200,200);
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+
+.foldersInfo {
+  margin:5px;
+  cursor: default;
+}
+
+.search {
+  display: flex;
+  margin: 0px;
+  padding:5px;
+  color: black;
+  background-color: azure;
+}
+
+.search input{
+  margin: 0px 0px 0px 5px;
+  width: 100%;
+}
+
+.gridcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.locationGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.picture {
+  width: 150px;
+  height: auto;
+  position: relative;
+  margin:1px;
+  cursor: pointer;
+}
+
+.picture:focus {
+  outline: 2px solid rgba(255,0,0,0.7);
+}
+
+.pictureTitle{
+  display: block;
+  height:15px;
+  font-size: 10px;
+  text-overflow: ellipsis;
+  width:100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.picture img {
+  width:100%;
+}
+
+.showLoading {
+  display: flex;
+  margin: 0px;
+  padding:5px;
+  color: black;
+  background-color: azure;
+}
+
+.hideLoading {
+  visibility: hidden;
+  display: flex;
+  margin: 0px;
+  padding:5px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.gallery {
+  position: absolute;
+  width: 80vw;
+  height: 80vh;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.gallerycontainer {
+  position: fixed;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(0,0,0,0.5);
+  z-index: 9999;
+}
+
+.galleryImage {
+  max-height: 90vh;
+  width: auto;
+  max-width: 80%;
+}
+
+.arrow {
+  width: 10%;
+  cursor: pointer;
+  margin: 5px;
+}

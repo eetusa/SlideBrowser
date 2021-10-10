@@ -1,0 +1,18 @@
+{
+  "name": "slidebrowser",
+  "productName": "slidebrowser",
+  "version": "1.3.1",
+  "description": "Electron & React based application to browse pdfs and ppts filtering by search words",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Eetu Salli",
+    "email": "eetu.salli@gmail.com",
+    "url": "https://github.com/SliderBrowser"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../internals/scripts/BabelRegister.js ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
